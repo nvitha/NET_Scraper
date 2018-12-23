@@ -4,7 +4,7 @@ import csv
 import os
 from datetime import datetime
 from bs4 import BeautifulSoup
-
+from pprint import pprint
 
 x = datetime.now()
 time_string = str(x.year) + str(x.month) + str(x.day)
